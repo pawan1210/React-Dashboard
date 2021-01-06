@@ -1,0 +1,110 @@
+.Innerbar {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f5f5;
+  padding-top: 20px;
+  width: -webkit-fill-available !important;
+}
+
+.Innerbar .left-div {
+  display: flex;
+  margin-left: 13px;
+  align-items: center;
+}
+
+.Innerbar .right-div button {
+  padding: 8px 15px;
+  font-size: 13px;
+  background-color: #0298d4;
+  border: none;
+  border-radius: 5px;
+  color: #fceceb;
+  margin-right: 12px;
+}
+.Innerbar .right-div button span {
+  color: white;
+  font-weight: 500;
+}
+
+.Innerbar .right-div button span svg {
+  margin-left: 5px;
+}
+.Innerbar .left-div .inner-left-div {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  margin-left: 30px;
+  font-size: 15px;
+  color: #999dad;
+  font-weight: 500;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.Innerbar .left-div .inner-left-div li {
+  margin-right: 8px;
+}
+
+.Innerbar .left-div .inner-left-div svg {
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
+
+@media screen and (max-width: 900px) {
+  .Innerbar .left-div h5 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .Innerbar .left-div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Innerbar .left-div .inner-left-div {
+    margin-left: 0px;
+  }
+  .Innerbar .left-div .inner-left-div li {
+    padding-left: 0px;
+    font-size: 13px;
+  }
+  .Innerbar .left-div .inner-left-div svg {
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Innerbar {
+    flex-direction: column;
+  }
+  .Innerbar .left-div {
+    align-items: center;
+  }
+  .Innerbar {
+    align-items: center;
+  }
+  .Innerbar .left-div .inner-left-div li {
+    padding-left: 0px;
+  }
+  .Innerbar .left-div .inner-left-div li::marker {
+    margin-right: 5px;
+  }
+  .Innerbar .left-div .inner-left-div svg {
+    margin-right: 5px;
+  }
+  .Innerbar .right-div button {
+    margin-right: 0;
+  }
+  .Innerbar .left-div {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .Innerbar .left-div h5 {
+    font-size: 18px;
+  }
+  .Innerbar .right-div button {
+    font-size: 12px;
+  }
+}

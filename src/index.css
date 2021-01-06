@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&family=Rubik:wght@400;500&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 500px;
+  background-color: #f0f5f5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  display: flex;
+  align-items: flex-start;
+}
+
+.App .dashboard-div {
+  width: 100%;
+}
+
+.App .sidebar {
+  min-width: 20%;
+}
+.App .collapsedsidebar {
+  width: 40px;
+  position: sticky;
+  top: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .App .sidebar {
+    min-width: 150px;
+  }
+}

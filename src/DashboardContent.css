@@ -1,0 +1,326 @@
+.DashboardContent {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  background-color: #f0f5f5;
+}
+
+.DashboardContent .dashboard-item {
+  border: none;
+  flex-basis: 31%;
+  margin: 12px;
+  min-height: 180px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.DashboardContent .dashboard-item .dashboard-item-header1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  height: 20%;
+}
+.DashboardContent .dashboard-item .dashboard-item-header1 svg {
+  margin-top: 5px;
+}
+.DashboardContent .dashboard-item .dashboard-item-header1 h3 {
+  font-size: 20px;
+}
+
+.DashboardContent .dashboard-item .dashboard-item-content-div {
+  display: flex;
+  align-items: center;
+  height: 80%;
+  margin-top: 10px;
+}
+
+.DashboardContent .dashboard-item .dashboard-item-content-div h2 {
+  width: 40%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.DashboardContent .dashboard-item .dashboard-item-content-div h2 span {
+  font-size: 20px;
+}
+.DashboardContent
+  .dashboard-item
+  .dashboard-item-content-div
+  .dashboard-item-chart {
+  width: 60%;
+}
+
+.DashboardContent .dashboard-item .dashboard-item-header2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 5px 10px 20px;
+  height: 20%;
+}
+
+.DashboardContent .dashboard-item .dashboard-item-header2 span {
+  padding: 3px 10px;
+  margin-right: 8px;
+  background-color: #ebe4d3;
+}
+.DashboardContent .dashboard-item .dashboard-item-header2 h3 {
+  font-size: 15px;
+}
+
+.DashboardContent .dashboard-item .dashboard-item-content2 {
+  height: 80%;
+  padding: 15px 10px 10px 20px;
+}
+
+.DashboardContent .dashboard-item .dashboard-item-content2 p {
+  font-size: 14px;
+}
+
+.DashboardContent .dashboard-item .dashboard-item-content2 h5 {
+  font-size: 18px;
+}
+
+.DashboardContent .dashboard-item .dashboard-item-content2 .button-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.DashboardContent
+  .dashboard-item
+  .dashboard-item-content2
+  .button-div
+  .button1 {
+  color: #0298d4;
+  border: none;
+  border-radius: 2px;
+  font-weight: 600;
+}
+.DashboardContent
+  .dashboard-item
+  .dashboard-item-content2
+  .button-div
+  .button2 {
+  border-radius: 2px;
+  background-color: white;
+  border: 1px solid #d9dadb;
+  color: #888b8f;
+}
+
+.DashboardContent
+  .dashboard-item
+  .dashboard-item-content2
+  .progress-bar-div
+  h3 {
+  font-size: 14px;
+}
+
+.DashboardContent
+  .dashboard-item
+  .dashboard-item-content2
+  .progress-bar-div
+  .progress-bar-label-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress {
+  height: 5px;
+}
+
+.DashboardContent .dashboard-item .dashboard-item-content2 .schedule-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.DashboardContent .dashboard-item .dashboard-item-content2 .schedule-div h3 {
+  font-size: 14px;
+}
+
+.DashboardContent
+  .dashboard-item
+  .dashboard-item-content2
+  .schedule-div
+  button {
+  border-radius: 2px;
+  background-color: white;
+  border: 1px solid #d9dadb;
+  color: #888b8f;
+}
+
+.DashboardContent .dashboard-item .schedule-item h5 {
+  margin-bottom: 20px;
+}
+
+.DashboardContent .dashboard-item .schedule-item .schedule-div {
+  padding-top: 10px;
+}
+
+.DashboardContent .dashboard-item .schedule-item .schedule-div span {
+  margin-right: 3px;
+  color: #7b9e85;
+}
+
+.DashboardContent .dashboard-item .top-products-div {
+  align-items: center;
+  height: 10%;
+  border-bottom: 1px solid #d9dadb;
+}
+
+.DashboardContent .dashboard-item .top-products-div h3 {
+  padding-bottom: 0;
+}
+
+.DashboardContent .dashboard-item .icon-div {
+  display: flex;
+}
+.DashboardContent .dashboard-item .icon-div li {
+  width: 60px;
+  height: 50px;
+  border: 1px solid #f5e5e4;
+  color: #888b8f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  margin: 20px 10px;
+}
+
+.DashboardContent .dashboard-item .icon-div li:hover {
+  background-color: #0298d4;
+  color: white;
+}
+.DashboardContent .dashboard-item .icon-div li:first-child {
+  margin-left: 50px;
+}
+.DashboardContent .dashboard-item .icon-div li span:last-child {
+  font-size: 12px;
+}
+
+.DashboardContent .dashboard-item .products-list-div li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.DashboardContent .dashboard-item .products-list-div li .left-div {
+  width: 65%;
+}
+.DashboardContent .dashboard-item .products-list-div li .right-div {
+  width: 35%;
+}
+.DashboardContent .dashboard-item .products-list-div li .left-div h6 {
+  padding-left: 20px;
+  font-size: 13px;
+}
+.DashboardContent
+  .dashboard-item
+  .products-list-div
+  li
+  .left-div
+  h6:last-child {
+  color: #888b8f;
+}
+
+.DashboardContent .dashboard-item .products-list-div li .right-div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.DashboardContent .dashboard-item .products-list-div li .right-div .progress {
+  width: 40%;
+  margin-bottom: 5px;
+  margin-right: 7px;
+}
+
+.DashboardContent .statistics-div {
+  max-width: 64%;
+  flex-grow: 1;
+}
+
+.DashboardContent .dashboard-item .chart-label-div {
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.DashboardContent .dashboard-item .chart-label-div button {
+  height: 40px;
+  border-radius: 2px;
+  background-color: white;
+  border: 1px solid #d9dadb;
+  color: #888b8f;
+  padding: 0px 12px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.DashboardContent .dashboard-item .chart-label-div button span {
+  padding: 0;
+  margin-right: 10px;
+}
+.DashboardContent .dashboard-item .chart-label-div div {
+  display: flex;
+}
+
+.DashboardContent .dashboard-item .chart-label-div div li {
+  list-style: none;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.DashboardContent .dashboard-item .chart-label-div div li div {
+  width: 15px;
+  height: 5px;
+  margin-right: 5px;
+}
+
+.DashboardContent .dashboard-item .chart-label-div div li:first-child div {
+  background-color: #7e7cf7;
+}
+.DashboardContent .dashboard-item .chart-label-div div li:last-child div {
+  background-color: #dfe6f2;
+}
+
+@media screen and (max-width: 1288px) {
+  .dashboard-item {
+    min-width: 47%;
+    margin: 12px 0;
+  }
+}
+
+@media screen and (max-width: 972px) {
+  .DashboardContent {
+    justify-content: center;
+  }
+  .dashboard-item {
+    min-width: 70%;
+  }
+  .statistics-div {
+    flex-grow: 0;
+  }
+  .DashboardContent .statistics-div {
+    flex-grow: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dashboard-item {
+    min-width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .dashboard-item {
+    min-width: 90%;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .statistics-div {
+    display: none;
+  }
+}
