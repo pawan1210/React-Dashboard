@@ -7,7 +7,6 @@ import {
   faAtom,
   faBars,
   faBatteryHalf,
-  faBiking,
   faBookmark,
   faCameraRetro,
 } from "@fortawesome/free-solid-svg-icons";
