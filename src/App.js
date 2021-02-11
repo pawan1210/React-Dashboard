@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Dashboard from "./Dashboard";
 import Sidebar from "./Sidebar";
 import CollapsedSidebar from "./CollapsedSidebar";
-import { ThemeConsumer } from "react-bootstrap/esm/ThemeProvider";
 class App extends Component {
   constructor() {
     super();
